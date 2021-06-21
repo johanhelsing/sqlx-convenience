@@ -5,6 +5,7 @@ edition = "2018"
 description = "Convenience macros for very common sqlx stuff"
 repository = "https://github.com/johanhelsing/sqlx-convenience"
 authors = ["Johan Klokkhammer Helsing <johanhelsing@gmail.com>"]
+license = "MIT"
 
 [dependencies]
 quote = "1.0"
