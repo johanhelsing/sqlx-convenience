@@ -11,7 +11,7 @@ insert!("account", id, email, created_at, updated_at)
 Expands into:
 
 ```rust
-query!("INSERT INTO account (id, email, created_at) VALUES ($1, $2, $3, $4)",
+query!("INSERT INTO account (id, email, created_at, updated_at) VALUES ($1, $2, $3, $4)",
     id, email, created_at, updated_at);
 ```
 
